@@ -12,7 +12,7 @@ const askQuestions = (name, generateFunction, checkFunction) => {
       console.log(
         `'${answer}' is wrong answer. Correct answer was '${correctAnswer}'`,
       );
-      console.log(`Let's try again, ${name}`);
+      console.log(`Let's try again, ${name}!`);
       return;
     }
     console.log('Correct!');
