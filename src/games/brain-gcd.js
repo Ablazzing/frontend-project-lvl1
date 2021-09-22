@@ -35,7 +35,7 @@ const checker = (question, answer) => {
 
 const runGame = () => {
   const name = hello();
-  console.log('What is result of expression?');
+  console.log('Find the greatest common divisor of given numbers.');
   askQuestions(name, getNodNumbers, checker);
 };
 
